@@ -17,5 +17,10 @@ public class ListExample {
         List<String> namesList = Arrays.asList(NAMES);
         strs = namesList.stream();
         Stream<String> intStream = Arrays.stream(NAMES);
+
+        strs.forEach(s -> System.out.println(s));
+
+        intStream.forEach(i -> System.out.println(i));
+
     }
 }
