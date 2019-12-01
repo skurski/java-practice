@@ -9,7 +9,8 @@ public class ListExample {
     private static final String[] NAMES = new String[]{
             "Jarek", "Pawel", "Aga", "Piotrek", "Zoska", "Adam",
             "Monika", "Juduty", "Kaska", "Ola", "Marcin", "Sebastian",
-            "Weronika", "Jan", "Halina", "Jozef", "Krzysztof", "Aureliusz"
+            "Weronika", "Jan", "Halina", "Jozef", "Krzysztof", "Aureliusz",
+            "Alex", "Nikita"
     };
 
     public static void main(String[] args) {
