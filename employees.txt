@@ -1,0 +1,6 @@
+Jan,Kowalski,33,1700
+Pawel,Jarocin,37,2500
+Ignacy,Paderewski,55,15000
+Zofia,Zafichura,25,1500
+Piotr,Spoko,37
+Adam,Kostrzyna,45,2200
