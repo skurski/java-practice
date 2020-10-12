@@ -4,34 +4,34 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PalindromTest {
+class PalindromeTest {
 
-    private Palindrom palindrom = new Palindrom();
+    private Palindrome palindrome = new Palindrome();
 
     @Test
     void shouldSuccess() {
-        boolean palindrom = this.palindrom.check("Madam");
+        boolean palindrom = this.palindrome.check("Madam");
 
         assertEquals(true, palindrom);
     }
 
     @Test
     void shouldFail() {
-        boolean palindrom = this.palindrom.check("Rotamor");
+        boolean palindrom = this.palindrome.check("Rotamor");
 
         assertEquals(false, palindrom);
     }
 
     @Test
     void shouldCountNumberOfSwaps() {
-        int swaps = this.palindrom.checkHowManySwaps("aabcb");
+        int swaps = this.palindrome.checkHowManySwaps("aabcb");
 
         assertEquals(2, swaps);
     }
 
     @Test
     void shouldFailBecauseSwapsNotPossible() {
-        int swaps = this.palindrom.checkHowManySwaps("adbcdbad");
+        int swaps = this.palindrome.checkHowManySwaps("adbcdbad");
 
         assertEquals(-1, swaps);
     }

@@ -1,6 +1,6 @@
 package com.skurski.algo.strings;
 
-public class Palindrom {
+public class Palindrome {
 
     /**
      * Check if string is a palindrome
